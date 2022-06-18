@@ -26,6 +26,8 @@ conda activate raster4ml
 ## Windows
 To install on Windows, first download the wheel files for **GDAL**, **rasterio**, and **fiona** from [Christoph Gohlke's website](https://www.lfd.uci.edu/~gohlke/pythonlibs/) (🤗Thanks Christoph🤗). Go to his website, press <code>Ctrl+F</code> and type gdal. Download the GDAL file that mostly matches your computer configuration (64-bit or 32-bit) and Python version. 
 
+![gdal-snapshot](images/gdal.png)
+
 After downloading it, <code>cd</code> into the downloaded directory while the <code>raster4ml</code> environment is activated. Then install using <code>pip</code>. Do the same for **rasterio** and **fiona**.
 ```
 pip install GDAL‑3.4.3‑cp310‑cp310‑win_amd64.whl
