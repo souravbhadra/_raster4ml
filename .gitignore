@@ -1,2 +1,2 @@
-*.txt
-*.TIF
+data/landsat/*
+data/sentinel/*
