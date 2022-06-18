@@ -1,18 +1,14 @@
 # Welcome to Raster4ML!
 
-<code>Raster4ML</code> is a python-based geospatial raster processing library for machine learning.
+**Raster4ML** is a python-based geospatial raster processing library for machine learning.
 
 When geospatial raster data is concerned in a machine learning pipeline, it is often required to extract meaningful features, such as vegetation indices (e.g., NDVI, EVI, NDRE, etc.) or textures. This package provides easy-to-use functions that can automatically calculates the features with one or several lines of codes in Python. It also has the functionality of extracting statistics based on shapefile (i.e., point or polygon) from a raster data. Any type of raster data is supported regardless of satellite or UAVs.
 
-<br> <br/>
-
 # Key Features
-- Stacking Bands: Stack or combine bands together to form a multiband raster data.
-- Calculate Features: Automatically calculate necessary vegetation indices without providing any formula. Currently the package support 56 vegetation indices. (More will come)
-- Extract raster values based on shapefile: Extract pixel values of a given image by a point shapefile or statistics from a given polygon. Also has batch-wise processign support for multiple images.
-- Clip raster based on polygon: Clip a raster image based on the shape of given polygon file.
-
-<br> <br/>
+- **Stacking Bands:** Stack or combine bands together to form a multiband raster data.
+- **Calculate Features:** Automatically calculate necessary vegetation indices without providing any formula. Currently the package support 56 vegetation indices. (More will come)
+- **Extract raster values based on shapefile:** Extract pixel values of a given image by a point shapefile or statistics from a given polygon. Also has batch-wise processign support for multiple images.
+- **Clip raster based on polygon:** Clip a raster image based on the shape of given polygon file.
 
 # How to Install?
 ## Dependencies
