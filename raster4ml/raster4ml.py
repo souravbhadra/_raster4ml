@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 import warnings
-import utils
+from raster4ml import utils
 
 
 def stack_bands(image_paths, out_file):
